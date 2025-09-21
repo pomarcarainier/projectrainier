@@ -1,0 +1,525 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+body {
+	font-family: "Audiowide", sans-serif;
+	background-repeat: no-repeat;
+    	background-position: center;
+ 	background-attachment: fixed;
+  	background-size: cover;
+	height: 100vh;
+	
+
+}
+
+.page1h1 {
+	color: #9B111E;
+	font-size: 4rem;
+	text-shadow: 2px 2px black;
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	align-items: center;	
+}
+
+.logo1 {
+	box-shadow: 2px 2px black;
+	width: 4rem;
+	margin: 1rem;
+	border-style: outset;
+	border-color: red;
+}
+
+.loginbody {	
+ 	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	min-height: 80vh;
+  	padding: 1rem;
+}
+
+.loginbox {
+	background: linear-gradient(135deg, black 0%, #FF0000 100%);
+	width: 100%;
+	max-width: 460px;
+	border-radius: 0.75rem;
+	box-shadow: 2px 2px black;
+}
+
+.loginbox:hover {
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.loginlayer1 {
+	text-align: center;
+	margin: 1.5rem;
+	color: white;
+	text-shadow: 1px 1px black;
+	
+}
+
+.loginuser {
+	margin: 1rem;
+	display: flex;
+	flex-direction: column;
+	color: red;
+}
+
+.loginpass {
+	color: red;
+	margin: 1rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.userbox {
+	border-style: inset;
+	border-radius: .5rem;
+	height: 2rem;
+}
+
+.passbox {
+	border-style: inset;
+	border-radius: .5rem;
+	height: 2rem;
+}
+
+.rembme {
+	color: white;
+}
+
+a{
+	color: white;
+	transition: color 0.2s;
+}
+
+a:hover {
+	color: red;
+}
+
+.loginlayer2 {
+	display: flex;
+	justify-content: space-between;
+	margin: 1rem;
+}
+
+.buttons {
+	display: flex;
+	flex-direction: column;
+	margin-top: 1rem;
+}
+
+.loginbtn {
+	text-align: center;
+	
+}
+
+.btnsubmit {
+	color: red;
+	margin: .5rem;
+	background: #722F37;
+	border-radius: .5rem;
+}
+
+.logintext {
+	font-size: 1.5rem;
+	margin: 8rem;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.buttons .btngoogle {
+	color: white;
+	margin: .5rem;
+	border-radius: .5rem;
+	height: 2.5rem;
+	background: #EA4335;
+}
+
+.buttons .btnfb {
+	color: white;
+	margin: .5rem;
+	border-radius: .5rem;
+	height: 2.5rem;
+	background: #1877F2;
+}
+
+.buttons .btngit {
+	color: white;
+	margin: .5rem;
+	border-radius: .5rem;
+	height: 2.5rem;
+	background: black;
+}
+
+.signup {
+	text-align: center;
+	margin: 1.5rem;
+
+}
+
+.line {
+	margin: .5rem;
+}
+
+
+
+/* LANDPAGE */
+/* LANDPAGE */
+/* LANDPAGE */
+
+.page2h1 {
+	color: #9B111E;
+	font-size: 3rem;
+	text-shadow: 2px 2px black;
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	align-items: center;	
+}
+
+
+.logo2 {
+	box-shadow: 2px 2px black;
+	width: 4rem;
+	border-style: outset;
+	border-color: red;
+	margin-right: 1rem;
+} 
+
+nav {
+	top: 0;
+	position: fixed;
+	width: 100%;
+	background: #333;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	gap: 1rem;
+	margin-right: 4rem;
+	font-size: 1.2rem;
+}
+
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	margin-right: 1.3rem;
+	margin-left: 1.3rem;s
+}
+
+.div_banner {
+	margin-top: 5rem;
+	background: linear-gradient(135deg, #020002 0%, #363636 100%);
+	color: #333;
+	text-align: center;
+	padding: 2rem 1rem;
+	margin-bottom: 2rem;
+}
+			
+.div_banner h1 {
+	font-size: 2.5rem;
+	margin-bottom: 1rem;
+	color: #9B111E;
+	font-size: 4rem;
+	text-shadow: 2px 2px black;
+}
+				
+.div_banner p {
+	font-size: 1.2rem;
+	font-weight: 400;
+	color: white;
+	text-shadow: 2px 2px #9B111E;
+}
+
+.loltitle {
+	text-align: center;
+	color: #b27d3b;
+	font-size: 3rem;
+	text-shadow: 2px 2px black;
+}
+
+.lolbox {
+	display: flex;
+	margin: 1rem;
+	text-align: center;
+	font-size: 1.5rem;
+	margin-bottom: 4rem;
+}
+
+.lolbox:hover {
+	box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.lolbox a {
+	text-decoration: none;
+}
+
+.lolbox img {
+	width: 100%;
+}
+
+.lolbox1 {
+	padding: .5rem;
+	background: linear-gradient(135deg, #b27d3b 0%, #dabd6e 100%);
+	margin-right: .5rem;
+}
+
+.lolbox1:hover {
+	box-shadow: 25px 20px 25px 20px rgba(0, 0, 0, 1), 10px 10px 10px 10px rgba(0, 0, 0, 1);
+}
+
+.lolbox2 {
+	padding: .5rem;
+	background: linear-gradient(135deg, #b27d3b 0%, #dabd6e 100%);
+	margin-right: .5rem;
+}
+
+.lolbox2:hover {
+	box-shadow: 25px 20px 25px 20px rgba(0, 0, 0, 1), 10px 10px 10px 10px rgba(0, 0, 0, 1);
+}
+
+.lolbox3 {
+	padding: .5rem;
+	background: linear-gradient(135deg, #b27d3b 0%, #dabd6e 100%);
+}
+
+.lolbox3:hover {
+	box-shadow: 25px 20px 25px 20px rgba(0, 0, 0, 1), 10px 10px 10px 10px rgba(0, 0, 0, 1);
+}
+
+.line2 {
+	margin-left: 8rem;
+	margin-right: 8rem;
+	margin-bottom: 1rem;
+}
+
+.valotitle {
+	text-align: center;
+	color: #9B111E;
+	font-size: 3rem;
+	text-shadow: 2px 2px black;
+}
+
+.valobox {
+	display: flex;
+	margin: 1rem;
+	text-align: center;
+	font-size: 1.5rem;
+	margin-bottom: 3rem;
+}
+
+.valobox:hover {
+	box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.valobox a {
+	text-decoration: none;
+}
+
+.valobox img {
+	width: 100%;
+}
+
+.valobox1 {
+	padding: .5rem;
+	background: linear-gradient(135deg, black 0%, #FF0000 100%);
+	margin-right: .5rem;
+}
+
+.valobox1:hover {
+	box-shadow: 25px 20px 25px 20px rgba(0, 0, 0, 1), 10px 10px 10px 10px rgba(0, 0, 0, 1);
+}
+
+.valobox2 {
+	padding: .5rem;
+	background: linear-gradient(135deg, black 0%, #FF0000 100%);
+	margin-right: .5rem;
+}
+
+.valobox2:hover {
+	box-shadow: 25px 20px 25px 20px rgba(0, 0, 0, 1), 10px 10px 10px 10px rgba(0, 0, 0, 1);
+}
+
+.valobox3 {
+	padding: .5rem;
+	background: linear-gradient(135deg, black 0%, #FF0000 100%);	
+}
+
+.valobox3:hover {
+	box-shadow: 25px 20px 25px 20px rgba(0, 0, 0, 1), 10px 10px 10px 10px rgba(0, 0, 0, 1);
+}
+
+footer {
+	background: #333;
+	color: white;
+	text-align: center;
+}
+
+footer a {
+	color: #3895D3;
+}
+
+.footer {
+	padding: 1.3rem;
+}
+
+/*ABOUT*/
+/*ABOUT*/
+/*ABOUT*/
+
+.aboutbox {
+	background-color: rgba(0, 0, 0, 0.5); 
+ 	color: white; 
+	padding: 4rem;
+	display: flex;
+	justify-content: center;
+}
+
+.picbox {
+	padding: 2rem;
+}
+
+.aboutbox .picbox img {
+	width: 100%;
+}
+
+.info {
+	background-color: rgba(0, 0, 0, 0.8); 
+	font-family: Tahoma, serif;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	font-size: 3rem;
+	text-shadow: 3px 3px black;
+	padding-left: 20rem;
+	padding-right:  20rem;
+	padding-bottom: 2rem;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+	.logo1 {
+	box-shadow: 2px 2px black;
+	width: 8rem;
+	margin: 1rem;
+	border-style: outset;
+	border-color: red;
+}
+
+	.page2h1 {
+	color: #9B111E;
+	font-size: 2rem;
+	text-shadow: 2px 2px black;
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	align-items: center;	
+
+}
+
+	nav ul {
+	list-style: none;
+	display: flex;
+	gap: 1rem;
+	margin-right: 1rem;
+	font-size: 1.2rem;
+	flex-direction: column;
+}
+
+	.lolbox {
+	flex-direction: column;
+}
+	.lolbox1 {
+	margin-bottom: 1rem;
+}
+	.lolbox2 {
+	margin-bottom: 1rem;
+}
+	.lolbox3 {
+	margin-bottom: 1rem;
+}
+
+	.valobox {
+	flex-direction: column;
+}
+	.valobox1 {
+	margin-bottom: 1rem;
+}
+	.valobox2 {
+	margin-bottom: 1rem;
+}
+	.valobox3 {
+	margin-bottom: 1rem;
+}
+
+.div_banner h1 {
+	margin-bottom: 1rem;
+	color: #9B111E;
+	font-size: 2rem;
+	text-shadow: 2px 2px black;
+	margin-top: 5rem;
+}
+
+.info {
+	justify-content: space-between;
+	font-size: 1rem;
+	text-shadow: 3px 3px black;
+	padding-left: 4rem;
+	padding-right:  4rem;
+	padding-bottom: 2rem;
+}
+
+.picbox {
+	padding-top: 5rem;
+	padding-bottom: 1rem;
+}
+
+
+
+}
+
+@media (max-width: 600px) {
+	.page1h1 {
+	color: #9B111E;
+	font-size: 2.7rem;
+	text-shadow: 2px 2px black;
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	align-items: center;	
+}
+	.logo1 {
+	box-shadow: 2px 2px black;
+	width: 5.5rem;
+	margin: .5rem;
+	border-style: outset;
+	border-color: red;
+}
+
+	.div_banner h1 {
+	font-size: 2rem;
+}
+	nav {
+	padding: 0.01;
+	text-align: center;
+}
+
+
+}
+
+
+
