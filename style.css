@@ -518,12 +518,18 @@ footer {
 	padding: 0.01;
 	text-align: center;
 }
+	.picbox {
+	padding-top: 7rem;
+	padding-bottom: 1rem;
+}
+
 	footer {
 	margin-top: 5rem;
 }
 
 	
 }
+
 
 
 
