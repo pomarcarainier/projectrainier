@@ -522,6 +522,14 @@ footer {
 	padding-top: 7rem;
 	padding-bottom: 1rem;
 }
+	.info {
+	justify-content: space-between;
+	font-size: 1rem;
+	text-shadow: 3px 3px black;
+	padding-left: 2rem;
+	padding-right:  2rem;
+	padding-bottom: 2rem;
+}
 
 	footer {
 	margin-top: 5rem;
@@ -529,6 +537,7 @@ footer {
 
 	
 }
+
 
 
 
