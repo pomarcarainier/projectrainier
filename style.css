@@ -407,7 +407,8 @@ footer a {
 	padding-bottom: 2rem;
 }
 
-
+footer {
+}
 
 
 
@@ -517,8 +518,13 @@ footer a {
 	padding: 0.01;
 	text-align: center;
 }
-
+	footer {
+	margin-top: 5rem;
 }
+
+	
+}
+
 
 
 
